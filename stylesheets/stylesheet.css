@@ -83,11 +83,21 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 3rem 4rem; } 
+  
+  .page-header img.logo-res {
+	  width: 200px;
+  }
+}
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 2rem 1rem; } 
+  
+  .page-header img.logo-res {
+	  width: 150px;
+  }
+}
 
 .project-name {
   margin-top: 0;
